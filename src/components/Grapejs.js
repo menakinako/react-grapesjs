@@ -21,13 +21,8 @@ const Grapejs=()=>{
         gjsPresetWebPage:{}
       },
       assetManager: {
-        embedAsBase64: false,
         showUrlInput: true,
         autoAdd: true,
-        storeOnChange  : true,
-    	  storeAfterUpload  : true,
-      	upload: '',        //for temporary storage
-      	assets    	: [ ],
       },
       storageManager: {
         id: 'gjs-',             
